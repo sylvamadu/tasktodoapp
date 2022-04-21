@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dist/css/style.css">
+    <title>TodoApp</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h2>Todo App</h2>
+        </header>
+        <div class="todo_container">
+            <h3>Tasks for today</h3>
+            <div class="todo_list">
+                <ul id="lists_todo">
+                    <li>Your Task list is empty...</li>
+                </ul>
+            </div>
+            <div class="clearAll">
+                <button id="clearAll">Clear all tasks</button>
+            </div>
+            <form id="form">
+                <input type="text" id="task" value="" placeholder="Enter task...">
+                <button type="submit">Add</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
